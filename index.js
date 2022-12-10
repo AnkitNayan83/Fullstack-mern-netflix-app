@@ -23,6 +23,6 @@ if (process.env.NODE_ENV == "production") {
   });
 }
 
-app.listen(process.env.port, () => {
+app.listen(process.env.PORT, () => {
   console.log("Backend Server is running");
 });
